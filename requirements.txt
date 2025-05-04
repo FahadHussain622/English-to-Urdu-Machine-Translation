@@ -1,0 +1,21 @@
+ipykernel
+pandas
+numpy
+scikit-learn
+tensorflow
+nltk
+openpyxl
+joblib
+pytest
+pyyaml
+rouge-score
+matplotlib
+rouge
+streamlit
+transformers
+dataset
+accelerate
+tiktoken
+sentencepiece
+flask
+-e .
