@@ -80,36 +80,8 @@ These results demonstrate the effectiveness of multilingual pretraining for Engl
 
 ---
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/english-urdu-translation.git
-cd english-urdu-translation
-Install Dependencies
-(Requires Python 3.8 or higher)
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Translation API
-bash
-Copy code
-python app.py
-The API will be available at:
-
-arduino
-Copy code
-http://localhost:5000
-Send a POST request to /translate with the following JSON body:
-
-json
-Copy code
-{"text": "Your English sentence"}
-All experiments and training runs are logged using Weights & Biases. To enable tracking, set the WANDB_API_KEY environment variable.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-References
+## References
 Papineni et al. (2002). BLEU: A Method for Automatic Evaluation of Machine Translation. ACL.
 Lin (2004). ROUGE: A Package for Automatic Evaluation of Summaries. ACL.
 Banerjee & Lavie (2005). METEOR: An Automatic Metric for MT Evaluation. ACL Workshop.
